@@ -1,0 +1,39 @@
+---
+import Posts from "../components/posts.svelte";
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>asd</title>
+	</head>
+	<body>
+		<div class=" mx-auto">
+            <div class="grid grid-cols-1 gap-8  h-full md:grid-cols-3 justify-items-center">
+               
+                <Posts />
+                
+              </div>
+        </div>
+	</body>
+</html>
+
+<style>
+	
+
+    
+    .grid{
+        width: 100%;
+        
+    }
+    @media (max-width: 768px){
+     .container{
+         max-width: 600px;
+       
+     }
+    }
+ </style>

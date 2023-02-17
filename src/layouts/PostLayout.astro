@@ -1,0 +1,32 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import guitarPost from "../img/guitarPost.jpg";
+const { frontmatter } = Astro.props
+---
+
+<BaseLayout title="Welcome to Astro.">
+	<div class="mt-10">
+        <div class="text-center text-black text-3xl font-bold font-serif">{frontmatter.title}</div>
+        <div class="text-center text-black font-sans">By Ellyn Kail on January 23, 2023</div>
+    </div>
+    <div class="flex justify-center">
+        <div class="inline-block mx-auto">
+            <img class="mt-10" src="https://www.featureshoot.com/wp-content/uploads/2023/01/1_Rob_This_England_0146-2-700x969.jpg" alt="">
+            <p class="mt-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, eligendi blanditiis voluptate delectus aut suscipit modi, ipsum, doloremque qui expedita eaque molestiae eveniet iusto consectetur voluptatem asperiores id similique dolor?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus doloribus odio aperiam nisi sapiente unde error voluptate non sunt eligendi, ipsa perferendis possimus, inventore, aliquam magni dolore tenetur soluta delectus.
+            </p>
+            
+         </div>
+    </div>
+   
+	
+    
+
+	
+</BaseLayout>
+
+<style>
+    p{
+        max-width: 700px;
+    }
+</style>

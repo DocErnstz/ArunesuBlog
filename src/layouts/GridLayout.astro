@@ -1,5 +1,6 @@
 ---
 import Posts from "../components/posts.svelte";
+const {GridNumber} = Astro.props;
 
 ---
 
@@ -15,7 +16,7 @@ import Posts from "../components/posts.svelte";
 		<div class=" mx-auto">
             <div class="grid grid-cols-1 gap-8  h-full md:grid-cols-3 justify-items-center">
                
-                <Posts />
+                <Posts GridNumber={GridNumber} />
                 
               </div>
         </div>

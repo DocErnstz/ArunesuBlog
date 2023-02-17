@@ -43,7 +43,8 @@
 		padding-bottom: 100%;
 	}
 	
-	.grid-span-1 {
+
+	.grid-span {
 		grid-column: span 1 / span 1;
 		grid-row: span 1 / span 1;
 	}
@@ -57,7 +58,7 @@
 	}
 	
 	.image{
-		background-image: url("./guitarPost.jpg");
+		background-image: url("../img/guitarPost.jpg");
 		background-size: cover;
 		
 	}

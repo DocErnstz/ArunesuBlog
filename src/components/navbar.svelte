@@ -49,7 +49,7 @@ var menuIsShow = false;
             <a href="#" class="text-lg  tracking-widest ">NFTs</a>
         </div>
         <div class="transition ease-in-out duration-300 delay-150 relative hover:border-indigo-600">
-            <a href="/posts/post-1" class="text-lg  tracking-widest ">Opportunities</a>
+            <a href="/posts/post-1" class="text-lg  tracking-widest">Opportunities</a>
         </div>
         <div class="transition ease-in-out duration-300 delay-150 relative hover:border-indigo-600">
             <a href="#" class="text-lg  tracking-widest ">Feature Shoot Portfolio Reviews</a>
@@ -79,6 +79,7 @@ var menuIsShow = false;
         transform: scaleX(0);
         border-bottom: 2px solid blue;
         transition: all 0.4s ease-in-out;
+        pointer-events: none;
      }
 
      #navOptions > div:not(:first-child):hover::before{
